@@ -1,0 +1,89 @@
+/* Global */
+a:hover {
+    color: red;
+}
+
+section h2 {
+    font-size: 30px;
+    text-align: center;
+}
+
+img {
+    width: 300px;
+}
+
+
+/* Profile */
+header {
+    background: darkred;
+    text-align: center;
+    border-bottom: 2px solid black;
+    padding: 75px 0 20px 0;
+}
+
+header h1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    text-shadow: 5px 10px black;
+    margin: auto;
+    font-size: 6em;
+}
+
+header h2 {
+    color: white;
+    text-shadow: 3px 3px black;
+    font-size: 3em;
+}
+
+
+/* Projects */
+.projects {
+    background-color: goldenrod;
+    overflow: auto;
+    border-bottom: 2px solid black;
+    padding: 5px 10px 5px 10px;
+}
+
+.project1 {
+    padding: 0 5em 0 5em;
+}
+
+.project1 img {
+    float: left;
+    position: relative;
+    padding: 0 6px 6px 6px;
+}
+
+/* Education */
+.education {
+    background-color: steelblue;
+    clear: both;
+    border-bottom: 2px solid black;
+    padding: 5px 10px 5px 10px;
+}
+
+.school1 {
+    padding: 0 5em 0 5em;
+}
+
+
+/* Contact */
+footer {
+    background-color: slategray;
+    text-align: center;
+    padding: 5px 10px .5px 10px;
+    color: white;
+}
+
+footer h2 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, serif;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer p {
+    font-size: 12px;
+}
