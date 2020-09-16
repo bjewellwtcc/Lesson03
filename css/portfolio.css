@@ -15,7 +15,7 @@ img {
 
 /* Profile */
 header {
-    background: darkred;
+    background: #006bb3;
     text-align: center;
     border-bottom: 2px solid black;
     padding: 75px 0 20px 0;
@@ -38,7 +38,7 @@ header h2 {
 
 /* Projects */
 .projects {
-    background-color: goldenrod;
+    background-color: #1aa3ff;
     overflow: auto;
     border-bottom: 2px solid black;
     padding: 5px 10px 5px 10px;
@@ -46,17 +46,28 @@ header h2 {
 
 .project1 {
     padding: 0 5em 0 5em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
 }
 
 .project1 img {
     float: left;
     position: relative;
-    padding: 0 6px 6px 6px;
+    padding: 0 10px 6px 0;
+}
+
+a.morelink {
+    color: black;
+}
+
+a.boxlink {
+    color: white;
+    text-decoration: none;
 }
 
 /* Education */
 .education {
-    background-color: steelblue;
+    background-color: #0099ff;
     clear: both;
     border-bottom: 2px solid black;
     padding: 5px 10px 5px 10px;
@@ -64,6 +75,8 @@ header h2 {
 
 .school1 {
     padding: 0 5em 0 5em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
 }
 
 
